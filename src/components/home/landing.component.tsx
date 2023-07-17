@@ -9,7 +9,7 @@ const Landing: React.FC = () => {
                     Your Trusted Construction Partner
                 </h2>
                 <p className="leading-7 md:leading-10 text-base md:text-lg text-primary-gray_light">
-                    20+ years' experience delivering quality builds and renovations in Greater Toronto. From custom homes to kitchen remodels, our skilled team offers comprehensive services. Contact us for exceptional craftsmanship and cost-effective solutions.
+                    20+ years experience delivering quality builds and renovations in Greater Toronto. From custom homes to kitchen remodels, our skilled team offers comprehensive services. Contact us for exceptional craftsmanship and cost-effective solutions.
                 </p>
                 <button className="bg-primary-red text-white py-2 px-4 mt-5 rounded-md">Contact Us</button>
             </div>

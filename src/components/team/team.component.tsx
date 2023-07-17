@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 interface TeamMember {
@@ -44,7 +45,7 @@ const Team: React.FC = () => {
       {teamMembers.map((member, index) => (
         <div key={index} className="p-6 rounded-lg flex flex-col items-center text-primary-gray ">
           <div className="mb-4">
-            <img src={member.image} alt={member.name} className="w-32 h-32 object-cover rounded-full mx-auto" />
+          <Image src={member.image} alt={member.name} className="w-32 h-32 object-cover rounded-full mx-auto" />
           </div>
           <h3 className="text-xl font-semibold mb-2 items-center">{member.name}</h3>
           <p className="mb-4 items-center">{member.position}</p>

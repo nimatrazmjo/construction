@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from "react";
 interface WhyChooseUs {
     id: number;
@@ -39,9 +40,9 @@ const Why: React.FC = () => {
             <h2 className="text-5xl uppercase font-thin mb-10 text-center">Why CHoose Us</h2>
             <hr className="border-primary-red border w-36" />
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl">
-                {whyChooseUs.map((item) => (
-                    <div className="flex flex-col items-center rounded-lg px-8 py-10">
-                        <img src={`/icons/${item.icon}`} className='rounded-sm my-5' alt="renovations" width={150} height={150} />
+                {whyChooseUs.map((item, index) => (
+                    <div key={index} className="flex flex-col items-center rounded-lg px-8 py-10">
+                        <Image src={`/icons/${item.icon}`} className='rounded-sm my-5' alt="renovations" width={150} height={150} />
                         <h3 className="text-2xl uppercase font-extralight mb-3 text-center">{item.title}</h3>
                         <p className="text-center leading-8 font-extralight text-xl text-primary-gray_light">{item.description}</p>
 
