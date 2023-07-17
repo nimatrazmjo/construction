@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 const Landing: React.FC = () => {
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-20 my-20 lg:my-5 lg:min-h-[80vh] items-center px-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-20 my-20 lg:my-5 lg:py-36 items-center px-10">
             <div className="flex flex-col row-start-2 lg:row-start-1 col-start-1">
                 <h2 className="text-3xl md:text-6xl text-primary-gray font-bold mb-5 tracking-widest">
                     Your Trusted Construction Partner

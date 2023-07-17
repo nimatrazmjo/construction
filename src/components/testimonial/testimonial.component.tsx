@@ -57,7 +57,7 @@ const Testimonial: React.FC = () => {
                     <p className="text-2xl italic leading-10 font-thin ">{testimonials[currentTestimonial].testimonial}</p>
                 </blockquote>
                 <figcaption className="flex items-center justify-center mt-6 space-x-3">
-                    <Image className="w-6 h-6 rounded-full" src={testimonials[currentTestimonial].image} alt="profile picture" />
+                    <Image className="w-6 h-6 rounded-full" width={50} height={50}  src={testimonials[currentTestimonial].image} alt="profile picture" />
                     <div className="flex items-center divide-x-2 divide-primary-gray_light dark:divide-gray-700">
                         <cite className="pr-3 font-medium "> {testimonials[currentTestimonial].name} {' '}</cite>
                         <cite className="pl-3 text-sm ">  {testimonials[currentTestimonial].position}</cite>
