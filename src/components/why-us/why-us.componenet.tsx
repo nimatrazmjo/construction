@@ -36,7 +36,7 @@ const Why: React.FC = () => {
 
     ];
     return (
-        <div id='why-us' className="flex flex-col items-center min-h-[50vh]  py-20">
+        <div id='why-us' className="flex flex-col items-center py-20">
             <h2 className="text-5xl uppercase font-thin mb-10 text-center">Why CHoose Us</h2>
             <hr className="border-primary-red border w-36" />
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl">

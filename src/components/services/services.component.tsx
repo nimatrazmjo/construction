@@ -3,7 +3,7 @@ import React from 'react';
 
 const Services: React.FC = () => {
   return (
-    <div id='services' className="flex flex-col items-center min-h-[50vh] bg-primary-gray text-white py-20">
+    <div id='services' className="flex flex-col items-center bg-primary-gray text-white py-20">
       <h2 className="text-5xl uppercase font-thin mb-10 text-center">Our Services</h2>
       <hr className="border-primary-red border w-36" />
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-6xl">
