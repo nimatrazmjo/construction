@@ -14,11 +14,10 @@ const Home = () => {
     return (
     <div className='flex flex-col bg-slate-50 text-primary-gray mx-auto max-w-screen-2xl min-h-screen'>
         <Header />
-        <Landing />
-        <Services />
+        <Slideshow />
         <Why />
-        {/* <Slideshow /> */}
-        {/* <Team /> */}
+
+        <Services />
         <Testimonial />
         <ContactForm />
         <Footer />

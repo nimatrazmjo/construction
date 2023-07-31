@@ -12,10 +12,10 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className='w-full bg-slate-50 text-primary-gray px-5 border-b border-slate-200'>
-      <nav className="flex items-center flex-wrap lg:px-10">
-        <div className="flex items-center lg:basis-1/3 flex-shrink-0 flex-1">
-          <Image src="/img/aiken-logo.svg" className='lg:scale-150 mr-5' alt="Aiken Construction Logo" width={50} height={50} />
+    <header className='w-full bg-slate-50 text-primary-gray px-5 border-b border-slate-200 '>
+      <nav className="flex items-center flex-wrap">
+        <div className="flex items-center flex-shrink-0 flex-1">
+          <Image src="/img/aiken-logo.svg" className='mr-5' alt="Aiken Construction Logo" width={100} height={100} />
           <span className="font-semibold md:text-lg text-sm tracking-tight">AIKEN CONSTRUCTION INC.</span>
         </div>
         <div className="block lg:hidden md:mr-5">
@@ -24,10 +24,10 @@ const Header: React.FC = () => {
           </button>
         </div>
 
-        <div id='home' className={`${isOpen ? "" : "hidden"} w-full lg:inline-flex lg:w-auto`}>
+        <div id='home' className={`${isOpen ? "" : "hidden"} lg:inline-flex lg:w-auto`}>
             {/* Write a Menu using tailwindcss with backgroun bg-primary-gray hover and selected primary-gray-light and selected and hover underline primary-red */}
             <ul className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-              <li className="text-sm lg:text-base lg:mr-5  hover:bg-primary-red py-3 p-5 hover:border-b hover:border-b-primary-red text-primary-gray hover:text-white">
+              <li className="text-sm lg:text-base lg:mr-5  hover:bg-primary-red py-3  p-5 hover:border-b hover:border-b-primary-red text-primary-gray hover:text-white">
                 <a href="#home" className="block lg:inline-block lg:mt-0  lg:mr-4">
                   Home
                 </a>

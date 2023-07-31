@@ -9,12 +9,10 @@ const Slideshow: React.FC = () => {
     const [images, setImages] = useState<string[]>([]);
 
     useEffect(() => {
-        fetch(`https://pixabay.com/api/?key=${pixabayAccesssKey}&q=construction&category=buildings&per_page=10&page=1`)
+        fetch(`/slideshow.json`)
             .then(response => response.json())
-            .then(data => setImages(data.hits.map((hit: any) => hit.largeImageURL)));
+            .then(data => setImages(data.map((image: any) =>  image.path)));
     },[]);
-
-    console.log(images, 'images');
     return <Gallery images={images} />;
 };
 
