@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 
 const Header: React.FC = () => {
 
-  const [isOpen, setIsOpen] = useState<boolean>(true);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
 
   const toggle = () => {
     console.log('toggle', isOpen);

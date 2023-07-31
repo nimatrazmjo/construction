@@ -78,6 +78,7 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
               left: 0,
               width: '100%',
               height: '100%',
+              objectFit: 'fill',
               backgroundPosition: 'center',
               backgroundSize: 'cover',
             }}
