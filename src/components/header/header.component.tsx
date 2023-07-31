@@ -24,7 +24,7 @@ const Header: React.FC = () => {
           </button>
         </div>
 
-        <div id='home' className={`${isOpen ? "" : "hidden"} lg:inline-flex lg:w-auto`}>
+        <div id='home' className={`${isOpen ? "" : "hidden"} w-full lg:inline-flex lg:w-auto`}>
             {/* Write a Menu using tailwindcss with backgroun bg-primary-gray hover and selected primary-gray-light and selected and hover underline primary-red */}
             <ul className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
               <li className="text-sm lg:text-base lg:mr-5  hover:bg-primary-red py-3  p-5 hover:border-b hover:border-b-primary-red text-primary-gray hover:text-white">
