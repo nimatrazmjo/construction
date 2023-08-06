@@ -22,10 +22,10 @@ const Contact: React.FC = () => {
     };
 
     return (
-        <div className="flex justify-center flex-col items-center min-h-screen bg-primary-gray" id='contact'>
-          <h2 className="text-5xl uppercase font-thin mb-10 text-center text-white">Contact Us</h2>
+        <div className="flex justify-center flex-col items-center  bg-primary-gray" id='contact'>
+          <h2 className="text-5xl uppercase font-thin my-20 text-center text-white">Contact Us</h2>
           <hr className="border-primary-red border w-36" />
-            <form onSubmit={handleSubmit} className="w-1/2 p-6 rounded-md bg-primary-gray text-white">
+            <form onSubmit={handleSubmit} className="w-1/2 p-6 pb-20 rounded-md bg-primary-gray text-white">
                 <div className="mb-4">
                     <label htmlFor="name" className="block text-xl font-semibold mb-2">Name</label>
                     <input
