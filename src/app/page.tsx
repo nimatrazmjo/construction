@@ -18,7 +18,6 @@ const Home = () => {
         <Why />
 
         <Services />
-        <Testimonial />
         <ContactForm />
         <Footer />
     </div>

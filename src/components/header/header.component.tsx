@@ -32,24 +32,17 @@ const Header: React.FC = () => {
                   Home
                 </a>
               </li>
-
+              <li className="text-sm lg:text-base lg:mr-5  hover:bg-primary-red py-3 p-5 hover:border-b hover:border-b-primary-red text-primary-gray hover:text-white">
+                <a href="#why-us" className="block lg:inline-block lg:mt-0  lg:mr-4">
+                  Why Us
+                </a>
+              </li>
               <li className="text-sm lg:text-base lg:mr-5  hover:bg-primary-red py-3 p-5 hover:border-b hover:border-b-primary-red text-primary-gray hover:text-white">
                 <a href="#services" className="block lg:inline-block lg:mt-0  lg:mr-4">
                   Services
                 </a>
               </li>
 
-              <li className="text-sm lg:text-base lg:mr-5  hover:bg-primary-red py-3 p-5 hover:border-b hover:border-b-primary-red text-primary-gray hover:text-white">
-                <a href="#why-us" className="block lg:inline-block lg:mt-0  lg:mr-4">
-                  Why Us
-                </a>
-              </li>
-
-              <li className="text-sm lg:text-base lg:mr-5  hover:bg-primary-red py-3 p-5 hover:border-b hover:border-b-primary-red text-primary-gray hover:text-white">
-                <a href="#about" className="block lg:inline-block lg:mt-0  lg:mr-4 ">
-                  About
-                </a>
-              </li>
               <li className="text-sm lg:text-base lg:mr-5  bg-primary-red text-white py-3 p-5 hover:border-b hover:border-b-primary-red hover:text-white">
                 <a href="#contact" className="block lg:inline-block lg:mt-0 lg:mr-4 ">
                   Contact
