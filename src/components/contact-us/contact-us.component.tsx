@@ -1,5 +1,4 @@
 "use client";
-import { useState } from 'react';
 
 const Contact: React.FC = () => {
 
@@ -13,7 +12,7 @@ const Contact: React.FC = () => {
                     <h3 className="text-2xl font-semibold my-5">Email Us:</h3>
                     <p className="text-center text-gray-600 my-3">
 
-Don't hesitate to reach out to us for any inquiries you may have. Whether it's about pricing, our services, or anything else, our team is here to help. We value your questions and are dedicated to providing you with the information you need. Feel free to contact us via email – we're ready to assist you!
+Don&apos;t hesitate to reach out to us for any inquiries you may have. Whether it&apos;s about pricing, our services, or anything else, our team is here to help. We value your questions and are dedicated to providing you with the information you need. Feel free to contact us via email – we&apos;re ready to assist you!
                     </p>
                     <a href="mailto:info@aikenconstruction.ca" className="mt-2 text-primary-red hover:underline">
                         info@aikenconstruction.ca
@@ -24,7 +23,7 @@ Don't hesitate to reach out to us for any inquiries you may have. Whether it's a
                     <h3 className="text-2xl font-semibold my-5">Call Us:</h3>
                     <p className="text-center text-gray-600 my-3">
 
-Call us to connect with our dedicated team. Whether you have questions, need assistance, or want to discuss your project, we're here to provide the support you need. Our commitment to helping you is unwavering – we're always available to lend a hand. Reach out via phone, and let's start talking today!
+Call us to connect with our dedicated team. Whether you have questions, need assistance, or want to discuss your project, we&apos;re here to provide the support you need. Our commitment to helping you is unwavering – we&apos;re always available to lend a hand. Reach out via phone, and let&apos;s start talking today!
                     </p>
                     <p className="mt-2 text-primary-red font-medium">+1 (437) 774-9486</p>
                     <p className="text-primary-red font-medium">+1 (416) 618-4435</p>

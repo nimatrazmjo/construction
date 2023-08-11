@@ -9,7 +9,7 @@ import Why from '../components/why-us/why-us.componenet';
 
 export const metadata: Metadata = {
     title: 'Aiken Construction - Your Reliable Partner for Construction Projects',
-    description: 'Aiken Construction specializes in new builds, renovations, and repairs of homes, offices, and more. With over 20 years of experience, we deliver high-quality results in the Greater Toronto Area.',
+    description: 'Aiken Construction specializes in new builds, renovations, and repairs of homes, offices, and more. With over 20 years of combined experience, we deliver high-quality results in the Greater Toronto Area.',
     keywords: 'construction, new builds, renovations, repairs, homes, offices, Greater Toronto Area, skilled team, experienced, local expertise, quality results',
 }
 
