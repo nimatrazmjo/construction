@@ -1,30 +1,70 @@
 [
-    {
-        "id":2,
-        "path": "/gallery/2.jpeg"
-    },
-    {
-        "id": 3,
-        "path": "/gallery/3.jpeg"
-    },
-    {
-        "id":4,
-        "path": "/gallery/4.jpeg"
-    },
-    {
-        "id": 5,
-        "path": "/gallery/5.jpeg"
-    },
-    {
-        "id":6,
-        "path": "/gallery/6.jpeg"
-    },
-    {
-        "id": 7,
-        "path": "/gallery/7.jpeg"
-    },
-    {
-        "id":9,
-        "path": "/gallery/8.jpeg"
-    }
+  {
+    "id": 1,
+    "path": "/gallery/1.jpg"
+  },
+  {
+    "id": 2,
+    "path": "/gallery/2.jpg"
+  },
+  {
+    "id": 3,
+    "path": "/gallery/3.jpg"
+  },
+  {
+    "id": 4,
+    "path": "/gallery/4.jpg"
+  },
+  {
+    "id": 5,
+    "path": "/gallery/5.jpg"
+  },
+  {
+    "id": 6,
+    "path": "/gallery/6.jpg"
+  },
+  {
+    "id": 7,
+    "path": "/gallery/7.jpg"
+  },
+  {
+    "id": 9,
+    "path": "/gallery/8.jpg"
+  },
+  {
+    "id": 9,
+    "path": "/gallery/9.jpg"
+  },
+  {
+    "id": 10,
+    "path": "/gallery/10.jpg"
+  },
+  {
+    "id": 11,
+    "path": "/gallery/11.jpg"
+  },
+  {
+    "id": 12,
+    "path": "/gallery/12.jpg"
+  },
+  {
+    "id": 13,
+    "path": "/gallery/13.jpg"
+  },
+  {
+    "id": 14,
+    "path": "/gallery/14.jpg"
+  },
+  {
+    "id": 15,
+    "path": "/gallery/15.jpg"
+  },
+  {
+    "id": 16,
+    "path": "/gallery/16.jpg"
+  },
+  {
+    "id": 17,
+    "path": "/gallery/17.jpg"
+  }
 ]
